@@ -1,4 +1,4 @@
-import styles from './Login.module.scss';
+import styles from './Dashboard.module.scss';
 import React from 'react';
 
 const Dashboard = () =>

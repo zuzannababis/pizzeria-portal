@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import PageNav from '../PageNav/PageNav.js';
 
 const MainLayout = ({children}) => (
-  <div>{children}</div>
+  <div>
+    <PageNav />
+    {children}
+  </div>
 );
 
 MainLayout.propTypes = {
